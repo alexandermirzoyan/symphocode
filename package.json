@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "symphocode.helloWorld",
-        "title": "Hello World"
+        "command": "symphocode.start",
+        "title": "Turn coding magic"
       }
     ]
   },

@@ -16,8 +16,8 @@ export function activate(context: vscode.ExtensionContext) {
     });
   });
 
-  const disposable = vscode.commands.registerCommand('symphocode.helloWorld', () => {
-    vscode.window.showInformationMessage('Hello World from SymphoCode!');
+  const disposable = vscode.commands.registerCommand('symphocode.start', () => {
+    vscode.window.showInformationMessage('SymphoCode is running!');
   });
 
   context.subscriptions.push(disposable);
