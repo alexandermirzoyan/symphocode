@@ -5,7 +5,24 @@ const player = playSound();
 const soundFileNameSet1 = ['A-1.m4a', 'B-1.m4a', 'C-1.m4a', 'D-1.m4a', 'E-1.m4a', 'F-1.m4a', 'G-1.m4a', 'C-01.m4a'];
 const soundFileNameSet2 = ['A-2.m4a', 'B-2.m4a', 'C-2.m4a', 'D-2.m4a', 'E-2.m4a', 'F-2.m4a', 'G-2.m4a', 'A-02.m4a'];
 // const soundFileNameSet = [...soundFileNameSet1, ...soundFileNameSet2];
-const soundFileNameSet = ['piano_note_1_freq_261.wav', 'piano_note_2_freq_329.wav', 'piano_note_3_freq_392.wav'];
+const soundFileNameSet = [
+  'piano_note_1_freq_261.wav',
+  'piano_note_2_freq_329.wav',
+  'piano_note_3_freq_392.wav',
+  'piano_note_4th_octave_1_freq_261.wav',
+  'piano_note_4th_octave_2_freq_277.wav',
+  'piano_note_4th_octave_3_freq_293.wav',
+  'piano_note_4th_octave_5_freq_329.wav',
+  'piano_note_4th_octave_6_freq_349.wav',
+  'piano_note_4th_octave_7_freq_369.wav',
+  'piano_note_4th_octave_8_freq_392.wav',
+  'piano_note_4th_octave_9_freq_415.wav',
+  'drum_sound_kick.wav',
+  'drum_sound_tom.wav',
+  'bass_note_1_freq_41.wav',
+  'bass_note_2_freq_55.wav',
+  'bass_note_4_freq_98.wav',
+];
 
 const randomizeArray = (input: string[]) => {
   const randomIndex = Math.floor(Math.random() * input.length);
